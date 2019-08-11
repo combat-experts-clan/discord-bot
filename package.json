@@ -1,0 +1,29 @@
+{
+  "name": "discord-bot",
+  "version": "0.0.0-dev",
+  "description": "Combat Experts Clan Discord Bot",
+  "main": "src/index.js",
+  "scripts": {
+    "bot": "node src/index.js",
+    "watch": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/combat-experts-clan/discord-bot.git"
+  },
+  "author": "Blake Renton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/combat-experts-clan/discord-bot/issues"
+  },
+  "homepage": "https://github.com/combat-experts-clan/discord-bot",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "discord.js": "^11.5.1",
+    "discord.js-commando": "^0.10.0",
+    "dotenv": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
